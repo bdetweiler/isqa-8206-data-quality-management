@@ -75,9 +75,9 @@ left=10mm,right=10mm,top=10mm,bottom=15mm}
 \makeatother
 
 
-\title{Math cheat sheet\ \ No.\ 123}
-\author{Share\LaTeX\ or Some University or Something or even Something Else}
-\date{2014}
+\title{ISQA 8206 cheat sheet}
+\author{Brian Detweiler}
+\date{2017}
 
 
 
@@ -88,105 +88,128 @@ left=10mm,right=10mm,top=10mm,bottom=15mm}
 \begin{multicols*}{2}
 
 
-\section{Algebra}
+\section{Product Quality}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\begin{enumerate}
+  \item Performance
+  \item Features
+  \item Reliability
+  \item Conformance
+  \item Durability
+  \item Serviceability
+  \item Aesthetics
+  \item Perceived quality
+\end{enumerate}
 
-\begin{tabular}{lll}
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
-\end{tabular}
-
-
-\section{Trigonometry}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-\begin{tikzpicture}[scale=5]
-\draw[thick,color=green] (0,0) -- node[below] {$b$} (1,0);
-\draw[thick,color=red] (1,0) -- node[right] {$a$} (1,0.57735);
-\draw[thick,color=black] (1,0.57735) -- node[above] {$c$} (0,0);
-\filldraw[fill=blue!20!white,draw=blue] (0,0) -- (0.3,0) arc (0:30:0.3); 
-\node[color=blue] at (0.33,0.1) {$\alpha$};
-\draw (0.95,0) -- (0.95,0.05) -- (1,0.05);
-\end{tikzpicture}
-
-\medskip
-
-\begin{tabular}{ll}
-$\sin\alpha = \frac{a}{c}$ & $\cos\alpha = \frac{b}{c}$ \\[1ex]
-$\tan\alpha = \frac{a}{b}$ & $\cot\alpha = \frac{b}{a}$ \\
-\end{tabular}
-
-\section{Algebra (some very very very very very long title)}
-
-\begin{tabular}{lll}
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
-\end{tabular}
+% \begin{tabular}{lll}
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+% $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
+% \end{tabular}
 
 
-\section{Trigonometry}
+\section{Service Quality}
 
-\begin{tikzpicture}[scale=5]
-\draw[thick,color=green] (0,0) -- node[below] {$b$} (1,0);
-\draw[thick,color=red] (1,0) -- node[right] {$a$} (1,0.57735);
-\draw[thick,color=black] (1,0.57735) -- node[above] {$c$} (0,0);
-\filldraw[fill=blue!20!white,draw=blue] (0,0) -- (0.3,0) arc (0:30:0.3); 
-\node[color=blue] at (0.33,0.1) {$\alpha$};
-\draw (0.95,0) -- (0.95,0.05) -- (1,0.05);
-\end{tikzpicture}
+\begin{enumerate}
+  \item Reliability
+  \item Responsiveness
+  \item Competence
+  \item Accessibility
+  \item Courtesy
+  \item Communication
+  \item Credibility
+  \item Security
+  \item Understanding the customer
+  \item Tangible
+\end{enumerate}
+
+
+% \begin{tikzpicture}[scale=5]
+% \draw[thick,color=green] (0,0) -- node[below] {$b$} (1,0);
+% \draw[thick,color=red] (1,0) -- node[right] {$a$} (1,0.57735);
+% \draw[thick,color=black] (1,0.57735) -- node[above] {$c$} (0,0);
+% \filldraw[fill=blue!20!white,draw=blue] (0,0) -- (0.3,0) arc (0:30:0.3); 
+% \node[color=blue] at (0.33,0.1) {$\alpha$};
+% \draw (0.95,0) -- (0.95,0.05) -- (1,0.05);
+% \end{tikzpicture}
 
 \medskip
 
-\begin{tabular}{ll}
-$\sin\alpha = \frac{a}{c}$ & $\cos\alpha = \frac{b}{c}$ \\[1ex]
-$\tan\alpha = \frac{a}{b}$ & $\cot\alpha = \frac{b}{a}$ \\
-\end{tabular}
+% \begin{tabular}{ll}
+% $\sin\alpha = \frac{a}{c}$ & $\cos\alpha = \frac{b}{c}$ \\[1ex]
+% $\tan\alpha = \frac{a}{b}$ & $\cot\alpha = \frac{b}{a}$ \\
+% \end{tabular}
+
+\section{Intrinsic DQ}
+
+The quality of the data is directly knowable from the data and may be evaluated with knowledge of users and uses.
+
+\begin{enumerate}
+  \item Believability
+  \item Accuracy
+  \item Objectivity
+  \item Reputation
+\end{enumerate}
 
 
-\section{Algebra}
 
-\begin{tabular}{lll}
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
-$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
-\end{tabular}
+\section{Contextual DQ}
+
+The quality of the data may be known only in context of other data items or by the use of the data.
+
+\begin{enumerate}
+  \item Value-added
+  \item Relevancy
+  \item Timeliness
+  \item Completeness
+  \item Amount of data
+\end{enumerate}
+
+% \begin{tikzpicture}[scale=5]
+% \draw[thick,color=green] (0,0) -- node[below] {$b$} (1,0);
+% \draw[thick,color=red] (1,0) -- node[right] {$a$} (1,0.57735);
+% \draw[thick,color=black] (1,0.57735) -- node[above] {$c$} (0,0);
+% \filldraw[fill=blue!20!white,draw=blue] (0,0) -- (0.3,0) arc (0:30:0.3); 
+% \node[color=blue] at (0.33,0.1) {$\alpha$};
+% \draw (0.95,0) -- (0.95,0.05) -- (1,0.05);
+% \end{tikzpicture}
+
+% \medskip
+
+% \begin{tabular}{ll}
+% $\sin\alpha = \frac{a}{c}$ & $\cos\alpha = \frac{b}{c}$ \\[1ex]
+% $\tan\alpha = \frac{a}{b}$ & $\cot\alpha = \frac{b}{a}$ \\
+% \end{tabular}
 
 
-\section{Trigonometry}
+\section{Representational DQ}
 
-\begin{tikzpicture}[scale=5]
-\draw[thick,color=green] (0,0) -- node[below] {$b$} (1,0);
-\draw[thick,color=red] (1,0) -- node[right] {$a$} (1,0.57735);
-\draw[thick,color=black] (1,0.57735) -- node[above] {$c$} (0,0);
-\filldraw[fill=blue!20!white,draw=blue] (0,0) -- (0.3,0) arc (0:30:0.3); 
-\node[color=blue] at (0.33,0.1) {$\alpha$};
-\draw (0.95,0) -- (0.95,0.05) -- (1,0.05);
-\end{tikzpicture}
+The quality of the data is based on the direct usability of the data. Some data may be codified in a way that makes the data very difficult to use.
 
-\medskip
-
-\begin{tabular}{ll}
-$\sin\alpha = \frac{a}{c}$ & $\cos\alpha = \frac{b}{c}$ \\[1ex]
-$\tan\alpha = \frac{a}{b}$ & $\cot\alpha = \frac{b}{a}$ \\
-\end{tabular}
+\begin{enumerate}
+  \item Interpretability
+  \item Ease of Understanding
+  \item Representational Consistency
+  \item Manipulability
+  \item Conciseness of Representation
+\end{enumerate}
 
 
-\section{The End}
+\section{Accessibility DQ}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The quality of the data is determined by the users ability to retrieve the data.
+
+\begin{enumerate}
+  \item Access
+  \item Security
+\end{enumerate}
+
+%\section{The End}
+
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 \end{multicols*}

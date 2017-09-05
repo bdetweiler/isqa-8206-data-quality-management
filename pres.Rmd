@@ -1,0 +1,138 @@
+---
+title: "Ethics in Machine Learning"
+author: Brian Detweiler
+date: October 30, 2017
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Rise of the Machines
+
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/terminator.jpg)
+
+<div class="notes">
+  When I say "worst case scenario for Artificial Intelligence", what comes to mind? 
+  I'm betting more than a few of you thought "SkyNet" from the Terminator films.
+  An AI becoming sentient with the sole purpose of destroying the human race to ensure its survival.
+</div>
+
+----
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/simone.gif)
+  
+  - Sentient AI overlords are a ways off
+  - There are real concerns we need to be thinking of right now
+  
+<div class="notes">
+  While such a scenario is not impossible, and it must be a consideration while developing AI, 
+  we're thankfully a ways off from this kind of dystopian future. There are, however, pressing
+  ethical matters in AI that we need to be considering right now. 
+  
+  Reference:
+  https://www.youtube.com/watch?v=PJiRijiLwbQ
+</div>
+
+## Unintended Consequences
+
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/robotskill.jpg)
+
+<div class="notes">
+  In the Terminator franchise, the machines weren't scary because they were learning from data and acting on it.
+  They were frightening because they were learning from data and acting in an _unintended_ way.
+  These "unintended consequences" are one of the biggest ethical dilemmas facing the AI community today. 
+  Of course, this can happen because of programming error, as depicted here. But more likely, with AI, the error
+  will occur while training the model.
+  Enter: Microsoft Tay. 
+  
+  Reference: 
+  https://www.reddit.com/r/funny/comments/4x28gw/this_is_why_code_reviews_are_a_good_thing/?st=j770kl8d&sh=9fb83792
+</div>
+
+## Case Study: Microsoft Tay
+
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/tay.png)
+
+<div class="notes">
+  Tay was a Natural Language Processing experiment by Microsoft researchers. 
+  They wanted to train a chatbot on the nuances of teen slang.
+  On March 23rd, 2016, Microsoft released Tay into the wild, and within 16 hours, users
+  from 4chan and 8chan had turned the bot into a Nazi and Microsoft had to pull the experiment.
+  
+  References:
+  https://qz.com/653084/microsofts-disastrous-tay-experiment-shows-the-hidden-dangers-of-ai/
+  https://qz.com/646825/microsofts-ai-millennial-chatbot-became-a-racist-jerk-after-less-than-a-day-on-twitter/
+  http://splinternews.com/who-turned-microsofts-chatbot-racist-surprise-it-was-1793855848
+</div>
+
+## Case Study: Microsoft Tay
+
+> _Now, you might wonder why Microsoft would unleash a bot upon the world that was so unhinged. Well it looks like the company just underestimated how unpleasant many people are on social media._
+
+-- Ashley Rodriguez, [Quartz](https://qz.com/646825/microsofts-ai-millennial-chatbot-became-a-racist-jerk-after-less-than-a-day-on-twitter/)
+
+  - Model training error
+  - Data quality issue
+  - Narrow focus on technology while neglecting actual users
+
+<div class="notes">
+  This quote, on the surface is true, but there is a more technical way to look at it.
+  The problem was ultimately a model training error. By putting the model training into
+  the hands of anonymous users, Microsoft gave up control of its model. And without any
+  stopgap measures in place to filter out racist sentiment, they broke a rule that web 
+  developers have known since the early days of the internet: Never trust your users.
+  This also drives home another point: In the rush to deliver on the hype of "cool new AI", 
+  engineers without ethics training will focus too narrowly on the technical aspects of 
+  their projects while neglecting the most important factor: the people who will actually
+  use the product.
+</div>
+
+
+## Biased Data
+
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/notgorillas.png)
+
+<div class="notes">
+  In June of 2015, Google found itself in an embarrassing situation when its new photo tagging
+  algorithm mistakenly categorized an black couple as gorillas. The engineers responded quickly 
+  and apologetically, but the bias had shown through; there weren't enough people of color in
+  the training data for the algorithm to correctly categorize the photo. The lack of diversity in
+  machine learning training data will continue to be a major ethics issue as it manifests itself
+  in ways the developers couldn't imagine.
+  
+  References:
+  https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
+  https://www.buzzfeed.com/syreetamcfadden/teaching-the-camera-to-see-my-skin?utm_term=.auDmMv84r#.agQaz5W6O
+  http://content.time.com/time/business/article/0,8599,1954643,00.html
+</div>
+
+## Biased Data
+![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/asian.jpg)
+
+<div class="notes">
+  The lack of diversity in training data will continue to be a major ethics issue as it manifests itself
+  in ways the developers couldn't imagine. Even when this is unintentional, implicit bias plays a huge role.
+  Comprehensive ethics training should include sections on diversity and implicit bias.
+  
+  References:
+  https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
+  https://www.buzzfeed.com/syreetamcfadden/teaching-the-camera-to-see-my-skin?utm_term=.auDmMv84r#.agQaz5W6O
+  http://content.time.com/time/business/article/0,8599,1954643,00.html
+</div>
+ 
+## Safety Concerns
+
+## Intentional Harm
+
+<div class="columns-2">
+  ![](/home/bdetweiler/src/Data_Science/isqa-8736-decision-support-systems/gifs/autopilot.gif)
+
+  - Bullet 1
+  - Turn off alarm
+  - Get out of bed
+</div>
+
+
+----
+
