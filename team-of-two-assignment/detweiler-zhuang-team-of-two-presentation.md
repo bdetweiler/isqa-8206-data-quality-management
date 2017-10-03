@@ -1,0 +1,211 @@
+<style>
+.notes {
+  display: none;
+}
+</style>
+
+Customer integration and operational performance: The mediating role of information quality
+========================================================
+author: Brian Detweiler and John Zhuang
+date: October 19, 2017
+autosize: true
+ 
+
+Sampling and Data Collection
+========================================================
+
+  - Cross-sectional design (as opposed to longitudinal) using quantitative questionnaire
+  - Questionnaire sent to 655 Irish companies
+  - Offered benchmark score relative to industry as incentive for response
+  - 236 questionnaires returned, with 228 usable (36% response rate) 
+  
+  --- 
+  
+  <img src="cross-sectional-research-study.png" />
+
+<div class="notes">
+  The study was done using a cross-sectional design, as opposed to a longitudinal design. This means that
+  all of the groups were studied at a single period in time rather than over time.
+  
+  The questionnaire was sent to 655 Irish companies.
+  
+  As an incentive, they offered a benchmark score relative to the company's industry to encourage responses.
+  
+  236 questionnaires were returned, with 228 usable for a 36% response rate, which is normal for this type of study.
+</div>
+
+    
+Why Ireland?
+========================================================
+
+  - Considered a small but open and trade-dependent economy
+    - Changed rapidly from agricultural economy one of the highest GDP/capita in Europe
+  - Growing trend to outsource labor intensive activities
+    - Makes effective use of SC a key issue to success
+  - Economic crisis requires more efficient use of resources
+    - Justifies strategic role of SCM
+
+
+Non-Response Bias 
+========================================================
+  - Respondent answers tend to differ greatly from non-respondent views
+    - Respondents in later waves compare similarly to non-respondents due to incentives
+    - Chi-square tests show all responses to be >> 0.01
+      - Suggests non-responses should not be a concern
+
+<div class="notes">
+  Non-response bias occurrs when there is more incentive for one type of response
+  and less for another. For instance, I might not review a product I bought on Amazon
+  if it works out fine, but if it breaks in a week, I'm probably going to go and review
+  it to warn other people. 
+  
+  The authors controlled for this using incentives. If an incentive was offered,
+  later responses could be treated pretty much the same as a non-response.
+  
+  They found no issues with non-response bias.
+</div>
+
+Common Method Bias
+========================================================
+  - Spurious variance attributed to measurement method rather than objectives being measured
+    - Ex. A survey form with an interface unfamiliar to some, but familiar to others
+  - Harmon's single factor test through exploratory factor analysis (EFA is a data driven approach) 
+    - First factor explained 28.5% of the variance (<< 50%)
+    
+<div class="notes">
+  Common Method Bias is a suprious variance attributed to measurement method rather than objectives being measured.
+  
+  The example I gave here is a survey form with a complicated user interface. If someone had used it before, 
+  they might be familiar with the UI and have no issues, where as a new user may be confused and it could
+  affect the response.
+</div>
+
+Common Method Bias
+========================================================
+  - Confirmatory factor analysis (CFA is a deductive approach)
+    - Model and hypothesis is specified a priori
+    
+ | RMSEA       | Model Fit      | CFA       | Measurement model |
+ | ---         | ---            | ---       | ---               |
+ | < 0.05      | Good Fit       |           |                   |
+ | 0.05 - 0.08 | Acceptable Fit |           | **0.062**         |
+ | > 0.08      | Bad        Fit | **0.14**  |                   |
+    
+    - Other model fit measures also fell within acceptable range
+    
+<div class="notes">
+  Furthermore, they also did a CFA to determine if the hypothesis of the survey having 
+  commmon method bias was a better fit to the data than the measurement model as measured
+  by Root Mean Squared Error of Approximation (RMSEA).
+  
+  Here we see the measurement model had a better fit.
+</div>
+ 
+Data Validation for Model Suitability
+========================================================
+  - Data tested for linearity
+    - Plotted standardized residuals ($\epsilon$) against standardized predictions ($\hat{y}$)
+  - Data tested for multicollinearity
+    - Correlation coefficients << 0.70
+    - Variance Inflation Factor (VIF) 1.314 < 5
+    - Suggests no multicollinearity
+
+<div class="notes">
+  To validate the data to ensure it was suitable for a linear model, the data was tested for linearity
+  by plotting the standardized residuals against the standardized predictions.
+  
+  It was also tested for multicollinearity. Multicollinearity can be described as one or more input variables
+  predicting another input variable, which, in the case of perfect multicollinearity, can lead to no OLS result. 
+  
+  Here, they used the VIF to determine there was no significant multicollinearity.
+</div> 
+  
+Validation and Measurement Scales
+========================================================
+  - Step 1: Content Validitiy
+    - Draft questionnaire pre-tested with academics and practitioners
+    - Made suggested modifications and pilot tested with subset of population
+    
+Validation
+========================================================
+  - Step 2: Construct Validitiy
+      - Discriminant validity
+    - Unidimensionality
+       - Ex. "Math test should only measure mathematical abilities not English grammar"
+       - EFA with principal axis factoring (similar to PCA)
+       - Varimax (orthogonal) rotation 
+       - Extracting factors with eigenvalues greater than 1.0
+    
+Validation
+========================================================
+  - Step 3: Reliability
+    - Cronbach's alpha 
+       - all above (or close to) 0.7 indicating high reliability
+
+Validation - Factors and their reliability
+========================================================
+  - Based on Cronbach's alpha
+
+  | Cronbach's alpha     | Internal consistency  | Customer Integration | Information Quality | Quality | Delivery | Flexibility | Cost    |
+  |---                   |---                    |---                   |---                  |---      |---       |---          |---      |
+  | $0.9 \leq \alpha$    | Excellent             |                      |                     |         |          |             |         |
+  | $0.8 < \alpha < 0.9$ | Good                  |                      |                     |         | *0.816*  |             | *0.810* |
+  | $0.7 < \alpha < 0.8$ | Acceptable            |  *0.751*             | *0.782*             | *0.704* |          |             |         |
+  | $0.6 < \alpha < 0.7$ | Questionable          |                      |                     |         |          | *0.682*     |         |
+  | $0.5 < \alpha < 0.6$ | Poor                  |                      |                     |         |          |             |         |
+  | $\alpha < 0.5$       | Unacceptable          |                      |                     |         |          |             |         |
+    
+Measurement - Customer Integration
+========================================================
+  - Scales: 1 = strongly agree ... 5 = strongly disagree
+  - _Customer integration_ measured on
+    - Q: _We frequently interact with this customer to set reliability, responsiveness, and other standards for us_
+    - Q: _We frequently measure and evaluate this customer satisfaction_
+    - Q: _We frequently determine this customer future expectations_
+    - Q: _We inform this customer of changing needs_
+    - Q: _This customer shares proprietary information with us_
+    
+Measurement - Information Quality
+========================================================
+  - Scales: 1 = strongly agree ... 5 = strongly disagree
+  - 5 IQ dimensions measured:
+  - Q: _Information exchange between customer and us is **accurate**_
+  - Q: _Information exchange between customer and us is **complete**_
+  - Q: _Information exchange between customer and us is **adequate**_
+  - Q: _Information exchange between customer and us is **reliable**_
+  - Q: _Information exchange between customer and us is **relevant**_
+    
+Measurement - Operational Performance
+========================================================
+  - Scales: 1 = Superior ... 5 = Poor
+  - Each had their own separate questions
+  - **Quality**
+  - **Delivery**
+  - **Flexibility**
+  - **Cost**
+  
+Modelling
+========================================================
+  - Applied Ordinary Least Squares (OLS) regression
+  - 4 different models - one for each operational performance dimension - 3 steps each
+    - Step 1. Control variables (_industry type_) and predictor variable (_customer integration_) regressed against mediator variable (_IQ_)
+    - Step 2. Predictor variable (_customer integration_) regressed against each dependent variable (_Quality, Delivery, Flexibility, Cost_)
+    - Step 3. Regressed dependent variables on both mediator (_IQ_) and predictor variables (_Quality, Delivery, Flexibility, Cost_)
+    
+Results
+========================================================
+  - Step 1: CI positively associated with IQ
+  - Step 2: CI positively associated with quality, delivery, flexibility, and cost
+  - Step 3: Upon including IQ, CI continued to be significantly related to quality
+    - Support:
+      - Partial H1a (CI $\xrightarrow[]{\text{IQ}}$ quality), full H2a (CI $\rightarrow$ quality)
+      - Partial H1b (CI $\xrightarrow[]{\text{IQ}}$ delivery), full H2b (CI $\rightarrow$ delivery)
+      - Partial H1c (CI $\xrightarrow[]{\text{IQ}}$ flexibility), full H2c (CI $\rightarrow$ flexibility)    
+      - Full H1d (CI $\xrightarrow[]{\text{IQ}}$ cost), none H2d (CI $\nrightarrow$ cost)
+    
+Conclusion
+========================================================
+  - CI practices (frequent interactions with customers) $\rightarrow$ quality, delivery, and flexibility improve
+  - To pursue quality, delivery and flexibility, IQ alone is less effective
+    - Need to complement IQ with CI
+  - IQ translates CI into cost improvement
