@@ -9,7 +9,63 @@ Customer integration and operational performance: The mediating role of informat
 author: Brian Detweiler and John Zhuang
 date: October 19, 2017
 autosize: true
- 
+
+
+Agenda
+========================================================
+  - Introduction
+  - Theoretical background & hypotheses development
+  - Research methodology
+  - Results
+  - Discussion
+  - Conclusion
+  
+Introduction
+========================================================
+  - Mediating role of information quality
+  - Direct relationship between customer integration and operational performance
+  - Questionnaire on 228 Ireland manufacturing companies
+    
+Terminology
+========================================================
+  - Supply chain (SC) integration
+  - Customer integration
+  - Operational performance
+  - Social capital theory    
+  
+Two Questions
+========================================================
+  1. to what extent is the relationship between customer integration and operational performance mediated by information quality
+  2. to what extent does customer integration associate directly with operational performance (partial mediation)
+  
+Theoretical Background & Hypothesis Development
+========================================================
+  - Social capital theory and SCM
+  - Social structures have a valuable asset in themselves
+  - Enable firms to exchange assets
+  - Social actors obtain benefits from investing in social structures.
+
+Theoretical Background & Hypothesis Development
+========================================================
+  - Customer integration and information quality
+  - Critical competency for successful integration efforts
+  - Customer driven
+  - Build long-term relationships
+  - Right information
+
+Theoretical Background & Hypothesis Development
+========================================================
+  - Information quality and operational performance
+  - Quality
+  - Delivery
+  - Flexibility
+  - Cost
+  
+Theoretical Background & Hypothesis Development
+========================================================
+  - Customer integration and operational performance
+  - Directly associated with each other
+  - Partial mediation effect
 
 Sampling and Data Collection
 ========================================================
